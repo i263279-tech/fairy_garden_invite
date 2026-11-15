@@ -1,82 +1,171 @@
-<!--Name:Qandeel zainab
+
+<!--
+Name: Qandeel Zainab
 Roll Number: 26i-3279
-Section: SE-E-->
+Section: SE-E
+Project: Fairy Garden Birthday Invitation
+-->
 
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>Fairy Garden Birthday Invitation</title>
-        <link rel="stylesheet"
-        href="style.css">
-    </head>
+<html lang="en">
 
-    <body>
-        <header>
-            <h1> Fairy Garden</h1>
-</header>
-<main>
-    <section class="invitation">
-        <h2> You are Invited!</h2>
-<p> A MAGICAL FAIRY CODED BIRTHDAY CELEBERATION</p>
-<div class="fairy">
-    <img src="fairy.png"
-    alt="Fairy">
-</div>  
-</section>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<section class="message">
-    <h2> A Fairy Tale Party</h2>
-    
-    <p> Joi us for special day full of happiness and magic!</p>
-    <p>  Birthday Girl: <strong> Princess Maria </strong></p>
-</section>
+    <title>Fairy Garden Birthday Invitation</title>
 
-<section class="details">
-    <h2> Party Details </h2>
-    <p><strong> Date:</strong> Saturday, 21 November</p>
-     <p><strong> Time:</strong> 4:00 PM - 7:00 PM</p>
-      <p><strong>Venue:</strong> The fairy Garden</p>
+    <!-- External CSS File -->
+    <link rel="stylesheet" href="style.css">
+</head>
 
-</section>
+<body>
 
-<section class="Schedule">
-    <h2> Magical Schedule</h2>
+    <!-- Website Header -->
 
-    <table>
-        <tr>
-            <th> Time</th>
-            <th> Activity</th>
-        </tr>
-<tr>
-        <td> 4:00 PM</td>
-         <td> Fairy Games</td>
-         </tr>
-
-         <tr>
-        <td> 5:00 PM</td>
-         <td> Cake cutting</td>
-         </tr>
-
-         <tr>
-        <td> 6:00 PM</td>
-         <td> Food and Fun</td>
-         </tr>
+    <header>
+        <h1>Fairy Garden</h1>
+        <p>A Magical Birthday Celebration</p>
+    </header>
 
 
-    </table>
-</section>
+    <!-- Navigation Bar -->
 
-<section class="rsvp">
-    <h2> RSVP NOW!</h2>
-    <p> Let the magic begin</p>
-    
-    <button> Join the Celeberation</button>
-</section>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="schedule.html">Schedule</a>
+        <a href="rsvp.html">RSVP</a>
+    </nav>
 
-</main>
 
-<footer>
-    <p> Made with Love, let the magic begin!</p>
-</footer>
-    </body>
+    <main>
+
+        <!-- Invitation Section -->
+
+        <section class="invitation">
+
+            <h2>You are Invited!</h2>
+
+            <p>A MAGICAL FAIRY CODED BIRTHDAY CELEBRATION</p>
+
+            <div class="fairy">
+                <img src="fairy.png" alt="Beautiful Fairy">
+            </div>
+
+        </section>
+
+
+        <!-- Birthday Message -->
+
+        <section class="message">
+
+            <h2>A Fairy Tale Party</h2>
+
+            <p>
+                Join us for a special day full of happiness and magic!
+            </p>
+
+            <p>
+                Birthday Girl: <strong>Princess Maria</strong>
+            </p>
+
+        </section>
+
+
+        <!-- Party Details -->
+
+        <section class="details">
+
+            <h2>Party Details</h2>
+
+            <p><strong>Date:</strong> Saturday, 21 November</p>
+
+            <p><strong>Time:</strong> 4:00 PM - 7:00 PM</p>
+
+            <p><strong>Venue:</strong> The Fairy Garden</p>
+
+        </section>
+
+
+        <!-- Magical Schedule -->
+
+        <section class="schedule">
+
+            <h2>Magical Schedule</h2>
+
+            <table>
+
+                <tr>
+                    <th>Time</th>
+                    <th>Activity</th>
+                </tr>
+
+                <tr>
+                    <td>4:00 PM</td>
+                    <td>Fairy Games</td>
+                </tr>
+
+                <tr>
+                    <td>5:00 PM</td>
+                    <td>Cake Cutting</td>
+                </tr>
+
+                <tr>
+                    <td>6:00 PM</td>
+                    <td>Food and Fun</td>
+                </tr>
+
+            </table>
+
+            <p>
+                Visit our Schedule page for the complete magical program!
+            </p>
+
+        </section>
+
+
+        <!-- RSVP Section -->
+
+        <section class="rsvp">
+
+            <h2>RSVP NOW!</h2>
+
+            <p>Let the magic begin!</p>
+
+            <button onclick="joinCelebration()">
+                Join the Celebration
+            </button>
+
+        </section>
+
+    </main>
+
+
+    <!-- Website Footer -->
+
+    <footer>
+
+        <p>Made with Love, let the magic begin!</p>
+
+    </footer>
+
+
+    <!-- JavaScript -->
+
+    <script>
+
+        function joinCelebration() {
+
+            window.alert(
+                "✨ Welcome to Fairy Garden! Let's confirm your attendance. 💗"
+            );
+
+            window.location.href = "rsvp.html";
+
+        }
+
+    </script>
+
+</body>
+
 </html>

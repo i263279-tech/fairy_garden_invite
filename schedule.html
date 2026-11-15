@@ -1,0 +1,393 @@
+
+<!--
+Name: Qandeel Zainab
+Roll Number: 26i-3279
+Section: SE-E
+Project: Fairy Garden Birthday Invitation
+Page: Event Schedule
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Magical Schedule | Fairy Garden</title>
+
+    <!-- Reusing existing CSS file -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Additional styling for schedule page only -->
+    <style>
+
+        body {
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+
+        /* Navigation Bar */
+
+        nav {
+            background-color: #d9c2ed;
+            padding: 15px;
+        }
+
+        nav a {
+            color: #70458f;
+            text-decoration: none;
+            font-weight: bold;
+            margin: 0 15px;
+            font-size: 16px;
+        }
+
+        nav a:hover {
+            color: #a77bc1;
+            text-decoration: underline;
+        }
+
+        /* Main Heading */
+
+        .page-heading {
+            background-color: #FCE4EC;
+            padding: 25px;
+            border-radius: 15px;
+        }
+
+        .page-heading h2 {
+            color: #70458f;
+            font-size: 30px;
+        }
+
+        .page-heading p {
+            color: #604A79;
+        }
+
+        /* Schedule Section */
+
+        .schedule-container {
+            background-color: #FFF8E8;
+            padding: 25px;
+            margin: 20px 0;
+            border-radius: 15px;
+        }
+
+        .schedule-container h2 {
+            color: #9665b5;
+        }
+
+        /* Individual Activities */
+
+        .activity {
+            background-color: #E2F2E8;
+            border-left: 6px solid #a77bc1;
+            border-radius: 12px;
+            padding: 18px;
+            margin: 18px 0;
+            text-align: left;
+            transition: transform 0.3s;
+        }
+
+        .activity:hover {
+            transform: translateY(-4px);
+        }
+
+        .activity h3 {
+            color: #70458f;
+            margin-top: 0;
+        }
+
+        .activity p {
+            color: #604A79;
+            line-height: 1.6;
+        }
+
+        .time {
+            color: #9665b5;
+            font-weight: bold;
+        }
+
+        /* Fairy Image */
+
+        .fairy img {
+            width: 180px;
+            max-width: 100%;
+            border-radius: 15px;
+        }
+
+        /* Closing Message */
+
+        .closing {
+            background-color: #FCE4EC;
+            padding: 20px;
+            border-radius: 15px;
+            margin: 20px 0;
+        }
+
+        .closing h2 {
+            color: #9665b5;
+        }
+
+        /* Responsive Design */
+
+        @media screen and (max-width: 600px) {
+
+            main {
+                width: 90%;
+            }
+
+            nav a {
+                display: inline-block;
+                margin: 7px;
+                font-size: 14px;
+            }
+
+            .page-heading h2 {
+                font-size: 24px;
+            }
+
+            .activity {
+                padding: 14px;
+            }
+
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+    <!-- Website Header -->
+
+    <header>
+        <h1>Fairy Garden</h1>
+        <p>A Magical Birthday Celebration</p>
+    </header>
+
+
+    <!-- Navigation Bar -->
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="schedule.html">Schedule</a>
+        <a href="rsvp.html">RSVP</a>
+    </nav>
+
+
+    <main>
+
+        <!-- Page Introduction -->
+
+        <section class="page-heading">
+
+            <h2>✨ Our Magical Schedule ✨</h2>
+
+            <p>
+                Get ready for a beautiful day filled with
+                fairy magic, laughter, games and happiness!
+            </p>
+
+            <p>
+                Every moment has a little sparkle waiting for you!
+            </p>
+
+        </section>
+
+
+        <!-- Fairy Image -->
+
+        <div class="fairy">
+
+            <img src="fairy.png" alt="Beautiful Fairy">
+
+        </div>
+
+
+        <!-- Event Schedule -->
+
+        <section class="schedule-container">
+
+            <h2>🌸 A Day Full of Magic 🌸</h2>
+
+            <p>
+                Here is our magical birthday celebration plan.
+            </p>
+
+
+            <!-- Activity 1 -->
+
+            <div class="activity">
+
+                <h3>🧚 1. Welcome to Fairy Garden</h3>
+
+                <p class="time">
+                    Timing: 4:00 PM - 4:30 PM
+                </p>
+
+                <p>
+                    Welcome to our enchanted garden!
+                    Meet your friends, enjoy the magical
+                    decorations and get ready for a wonderful
+                    birthday celebration.
+                </p>
+
+            </div>
+
+
+            <!-- Activity 2 -->
+
+            <div class="activity">
+
+                <h3>🦋 2. Fairy Games and Fun</h3>
+
+                <p class="time">
+                     Timing: 4:30 PM - 5:00 PM
+                </p>
+
+                <p>
+                    Let the fun begin! Enjoy exciting fairy-themed
+                    games, playful activities and magical moments
+                    with your friends.
+                </p>
+
+            </div>
+
+
+            <!-- Activity 3 -->
+
+            <div class="activity">
+
+                <h3>🎂 3. Magical Cake Cutting</h3>
+
+                <p class="time">
+                    Timing: 5:00 PM - 5:30 PM
+                </p>
+
+                <p>
+                    It is time for the most special moment!
+                    Join Princess Maria for her beautiful
+                    birthday cake-cutting ceremony.
+                </p>
+
+            </div>
+
+
+            <!-- Activity 4 -->
+
+            <div class="activity">
+
+                <h3>🌷 4. Food and Refreshments</h3>
+
+                <p class="time">
+                    Timing: 5:30 PM - 6:15 PM
+                </p>
+
+                <p>
+                    Enjoy delicious food, sweet treats and
+                    refreshing drinks while spending quality
+                    time with your friends.
+                </p>
+
+            </div>
+
+
+            <!-- Activity 5 -->
+
+            <div class="activity">
+
+                <h3>✨ 5. Music and Dancing</h3>
+
+                <p class="time">
+                    Timing: 6:15 PM - 6:45 PM
+                </p>
+
+                <p>
+                    Dance, laugh and celebrate!
+                    Enjoy lovely music and create unforgettable
+                    memories in our fairy garden.
+                </p>
+
+            </div>
+
+
+            <!-- Activity 6 -->
+
+            <div class="activity">
+
+                <h3>💖 6. Goodbye and Thank You</h3>
+
+                <p class="time">
+                     Timing: 6:45 PM - 7:00 PM
+                </p>
+
+                <p>
+                    Our magical celebration comes to an end.
+                    Thank you for being part of this special day.
+                    Take your memories and a little fairy magic
+                    home with you!
+                </p>
+
+            </div>
+
+        </section>
+
+
+        <!-- Closing Message -->
+
+        <section class="closing">
+
+            <h2>🌙 Until We Meet Again! 🌙</h2>
+
+            <p>
+                Every fairy tale is beautiful when shared
+                with wonderful friends.
+            </p>
+
+            <p>
+                We cannot wait to celebrate with you!
+            </p>
+
+            <button onclick="showMessage()">
+                Spread Some Magic ✨
+            </button>
+
+        </section>
+
+    </main>
+
+
+    <!-- Website Footer -->
+
+    <footer>
+
+        <p>
+            Made with Love, let the magic begin!
+        </p>
+
+        <p>
+            Fairy Garden Birthday Celebration
+        </p>
+
+    </footer>
+
+
+    <!-- JavaScript -->
+
+    <script>
+
+        function showMessage() {
+
+            alert(
+                "✨ Thank you for being part of our magical Fairy Garden celebration! 💖"
+            );
+
+        }
+
+    </script>
+
+</body>
+
+</html>

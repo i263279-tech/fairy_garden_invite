@@ -1,19 +1,27 @@
-/* 
-Name:Qandeel zainab
+
+/*
+Name: Qandeel Zainab
 Roll Number: 26i-3279
 Section: SE-E
- */
+Project: Fairy Garden Birthday Invitation
+*/
 
- body {
-    background-color: #F5EFFF ;
-    font-family: Arial, sans-serif ;
-    color:#604A79 ;
-    text-align: ;
-    margin: ;
-    padding: ;
 
- }
- header {
+/* General Body Styling */
+
+body {
+    background-color: #F5EFFF;
+    font-family: Arial, sans-serif;
+    color: #604A79;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Website Header */
+
+header {
     background-color: #E6D6F2;
     padding: 20px;
 }
@@ -21,12 +29,40 @@ Section: SE-E
 h1 {
     color: #70458f;
     font-size: 36px;
+    margin: 10px 0;
 }
+
+
+/* Navigation Bar */
+
+nav {
+    background-color: #d9c2ed;
+    padding: 15px;
+}
+
+nav a {
+    color: #70458f;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 0 15px;
+    font-size: 16px;
+}
+
+nav a:hover {
+    color: #a77bc1;
+    text-decoration: underline;
+}
+
+
+/* Main Content */
 
 main {
     width: 85%;
     margin: 20px auto;
 }
+
+
+/* General Section Styling */
 
 section {
     background-color: #FFF8E8;
@@ -35,9 +71,15 @@ section {
     border-radius: 15px;
 }
 
+
+/* Section Headings */
+
 h2 {
     color: #9665b5;
 }
+
+
+/* Invitation Section */
 
 .invitation {
     background-color: #FCE4EC;
@@ -47,19 +89,38 @@ h2 {
     font-size: 32px;
 }
 
+
+/* Fairy Image */
+
 .fairy {
     font-size: 35px;
     padding: 15px;
 }
 
+.fairy img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 15px;
+}
+
+
+/* Birthday Message */
+
+
+/* Party Details */
+
 .details {
     background-color: #E2F2E8;
 }
+
+
+/* Schedule Section */
 
 .schedule table {
     width: 100%;
     border-collapse: collapse;
 }
+
 th, td {
     border: 1px solid #c5a6d9;
     padding: 12px;
@@ -67,7 +128,18 @@ th, td {
 
 th {
     background-color: #d9c2ed;
+    color: #604A79;
 }
+
+
+/* RSVP Section */
+
+.rsvp {
+    background-color: #FCE4EC;
+}
+
+
+/* Buttons */
 
 button {
     background-color: #a77bc1;
@@ -77,9 +149,56 @@ button {
     border-radius: 20px;
     font-size: 16px;
     cursor: pointer;
+    transition: background-color 0.3s;
 }
+
+button:hover {
+    background-color: #70458f;
+}
+
+
+/* Website Footer */
 
 footer {
     background-color: #d9c2ed;
     padding: 15px;
+    color: #604A79;
+}
+
+
+/* Responsive Design */
+
+@media screen and (max-width: 600px) {
+
+    main {
+        width: 90%;
+    }
+
+    nav a {
+        display: inline-block;
+        margin: 7px;
+        font-size: 14px;
+    }
+
+    h1 {
+        font-size: 30px;
+    }
+
+    .invitation h2 {
+        font-size: 26px;
+    }
+
+    section {
+        padding: 15px;
+    }
+
+    th, td {
+        padding: 8px;
+        font-size: 14px;
+    }
+
+    button {
+        font-size: 14px;
+    }
+
 }
