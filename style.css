@@ -1,0 +1,85 @@
+/* 
+Name:Qandeel zainab
+Roll Number: 26i-3279
+Section: SE-E
+ */
+
+ body {
+    background-color: #F5EFFF ;
+    font-family: Arial, sans-serif ;
+    color:#604A79 ;
+    text-align: ;
+    margin: ;
+    padding: ;
+
+ }
+ header {
+    background-color: #E6D6F2;
+    padding: 20px;
+}
+
+h1 {
+    color: #70458f;
+    font-size: 36px;
+}
+
+main {
+    width: 85%;
+    margin: 20px auto;
+}
+
+section {
+    background-color: #FFF8E8;
+    margin: 20px 0;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+h2 {
+    color: #9665b5;
+}
+
+.invitation {
+    background-color: #FCE4EC;
+}
+
+.invitation h2 {
+    font-size: 32px;
+}
+
+.fairy {
+    font-size: 35px;
+    padding: 15px;
+}
+
+.details {
+    background-color: #E2F2E8;
+}
+
+.schedule table {
+    width: 100%;
+    border-collapse: collapse;
+}
+th, td {
+    border: 1px solid #c5a6d9;
+    padding: 12px;
+}
+
+th {
+    background-color: #d9c2ed;
+}
+
+button {
+    background-color: #a77bc1;
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #d9c2ed;
+    padding: 15px;
+}
