@@ -1,2 +1,8 @@
-# fairy_garden_invite
-A pastel fairy garden themed invitation website
+NAME: QANDEEL ZAINAB
+ROLL NUM: 26I-3279
+SECTION:SE-E
+PASTEL FAIRY GARDEN THEMED BIRTHDAY INVITE WEBSITE
+CONTAIN 3 PAGES
+AI TOOL USED: CHATGPT
+https://i263279-tech.github.io/fairy_garden_invite/index.html
+
